@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "device_realme_sm8350-common",
+    "target_path": "device/realme/sm8350-common"
+  },
+  {
+    "repository": "vendor_realme_porsche",
+    "target_path": "vendor/realme/porsche",
+    "remote": "gitlab-stag"
+  }
+]

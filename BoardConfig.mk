@@ -5,7 +5,7 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8350-common/BoardConfigCommon.mk
+include device/realme/sm8350-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/porsche
 

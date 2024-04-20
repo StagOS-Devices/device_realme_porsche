@@ -11,6 +11,6 @@ set -e
 export DEVICE=porsche
 export DEVICE_COMMON=sm8350-common
 export VENDOR=realme
-export VENDOR_COMMON=oneplus
+export VENDOR_COMMON=realme
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

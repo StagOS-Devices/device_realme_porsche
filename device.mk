@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-stag
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
@@ -59,7 +59,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from the common OEM chipset makefile.
-$(call inherit-product, device/oneplus/sm8350-common/common.mk)
+$(call inherit-product, device/realme/sm8350-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/porsche/porsche-vendor.mk)
