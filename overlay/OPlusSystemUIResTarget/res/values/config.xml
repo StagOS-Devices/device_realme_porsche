@@ -11,4 +11,7 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1100px</dimen>
 
+    <!-- Set volume panel on left by default -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
 </resources>
